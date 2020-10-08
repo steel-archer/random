@@ -3,7 +3,7 @@ An attempt to check whether different PHP randomization functions demonstrate no
 
 Image generation code has been taken here: https://boallen.com/random-numbers.html
 
-All you need to run this app is **docker** and **docker-compose**.
+All you need to run this app is **[docker](https://www.docker.com/)** and **[docker-compose](https://docs.docker.com/compose/)**.
 
 How to set up this app:
 * Clone this repo: `git clone git@github.com:steel-archer/random.git`
