@@ -15,3 +15,8 @@ How to set up this app:
 Used:
 * PHP 7.4
 * GD extension
+
+
+How it looks:
+
+![Screenshot](random.png)
