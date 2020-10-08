@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This function code is mostly take from here
+ * Drawing code has been taken here: https://boallen.com/random-numbers.html
  *
  * @param string $funcName
  * @param callable|null $seedFunc
@@ -33,7 +33,7 @@ function draw(string $funcName, ?callable $seedFunc, callable $genFunc): void
     $output = <<<OUTPUT
 <b>{$funcName}:</b>
 <br>
-<img src='data:image/png;base64,{$image}' />
+<img src='data:image/png;base64,{$image}' alt="{$funcName}"/>
 <br><br>
 OUTPUT;
     echo $output;
